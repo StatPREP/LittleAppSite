@@ -3,10 +3,10 @@ title: "Common and Rare"
 author: "Carol Howald"
 date: "8/12/2020"
 output:
-  word_document: default
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -24,7 +24,7 @@ question_blank <-
 
 # Orientation
 
-We're continuing the story of two friends interested in how to measure poverty. Recall that in  the [Comparing two groups activity](posts/Activities/Comparing_two_groups/index.html), you met with them at a coffee shop to show them the `NHANES` data and how to display it in the [Confidence and T](`r T_app$url`) Little App. You had arranged the display to have `income_poverty` as the response variable and `home_type` as the explanatory variable, with the Source Package as Little App and the Data set as NHANES2. The sample size was n = 100, since that's the number of families your friends were thinking  of interviewing. You had looked at the difference in mean poverty level for the "Own" group and the "Rent" group, and how it varied from one sample to another.
+We're continuing the story of two friends interested in how to measure poverty. Recall that in  the [Comparing two groups activity](https://StatPREP.github.io/LittleAppSite/posts/Activities/Comparing_two_groups/), you met with them at a coffee shop to show them the `NHANES` data and how to display it in the [Confidence and T](`r T_app$url`) Little App. You had arranged the display to have `income_poverty` as the response variable and `home_type` as the explanatory variable, with the Source Package as Little App and the Data set as NHANES2. The sample size was n = 100, since that's the number of families your friends were thinking  of interviewing. You had looked at the difference in mean poverty level for the "Own" group and the "Rent" group, and how it varied from one sample to another.
 
 Your friends are a little concerned. One of the friends asks, "So every time you press New Sample, it's as if we did another set of 100 interviews on some new, randomly chosen families?"
 
