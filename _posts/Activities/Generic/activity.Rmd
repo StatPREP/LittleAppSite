@@ -1,0 +1,15 @@
+---
+title: "The activity itself"
+author: "Anonymous"
+date: "8/12/2020"
+output:
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This  file contains the text of the activity itself. 
+

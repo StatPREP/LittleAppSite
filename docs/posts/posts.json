@@ -1,0 +1,126 @@
+[
+  {
+    "path": "posts/2020-08-12-testing/",
+    "title": "Testing",
+    "description": "Can I get resources included here?",
+    "author": [
+      {
+        "name": "Danny",
+        "url": "https://www.statprep.org"
+      },
+      {
+        "name": "Maya",
+        "url": "https://www.statprep.org"
+      }
+    ],
+    "date": "2020-08-12",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-08-12T15:32:52-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/Activities/Generic/",
+    "title": "An Example Activity",
+    "description": "The generic form of a Little App Activity document. For reference when adding new activities to the site.",
+    "author": [
+      {
+        "name": "Author 1",
+        "url": "https://www.statprep.org"
+      },
+      {
+        "name": "Author 2",
+        "url": "https://www.statprep.org"
+      }
+    ],
+    "date": "2020-08-12",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-08-12T16:36:19-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/Apps/a-little-app/",
+    "title": "A Little App",
+    "description": "Testing how the blogs are laid out!",
+    "author": [
+      {
+        "name": "Danny Kaplan",
+        "url": "https://www.statprep.org"
+      }
+    ],
+    "date": "2020-08-12",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-08-12T15:04:31-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/Apps/Testing/",
+    "title": "Testing",
+    "description": "A new article created using the Distill format.",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-08-12",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-08-12T15:20:47-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/Activities/Comparing_confidence_intervals/",
+    "title": "Comparing two confidence intervals.",
+    "description": "Using one-sample confidence intervals on the mean to decide if there's good evidence that two means are different. Statistical experts know to use the two-sample t-test for such  problems, but best to  build up intuition first and then add  mathematical refinements  later. And, you'll  be able to see for yourself whether the refinements have any  practical impact.",
+    "author": [
+      {
+        "name": "Carol Howald",
+        "url": "https://www.statprep.org"
+      }
+    ],
+    "date": "2020-06-16",
+    "categories": [],
+    "preview": "posts/Activities/Comparing_confidence_intervals/preview.png",
+    "last_modified": "2020-08-12T17:25:18-05:00",
+    "input_file": "home_page.utf8.md"
+  },
+  {
+    "path": "posts/Activities/Comparing_two_groups/",
+    "title": "Comparing two groups",
+    "description": "Visualizing sampling variation in the difference between two groups.",
+    "author": [
+      {
+        "name": "Carol Howald",
+        "url": "email:chowald@howardcc.edu"
+      }
+    ],
+    "date": "2020-06-16",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-08-12T17:23:33-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/Activities/Common_and_rare/",
+    "title": "Common and Rare",
+    "description": "Using distributions to examine which values are common and which are rare.",
+    "author": [
+      {
+        "name": "Thomas Kinzeler",
+        "url": "https://www.statprep.org"
+      },
+      {
+        "name": "Daniel Kaplan",
+        "url": "https://www.statprep.org"
+      }
+    ],
+    "date": "2020-06-02",
+    "categories": [],
+    "preview": "posts/Activities/Common_and_rare/preview.png",
+    "last_modified": "2020-08-12T16:55:03-05:00",
+    "input_file": {}
+  }
+]

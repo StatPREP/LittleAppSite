@@ -1,0 +1,22 @@
+---
+title: "Common and Rare"
+description: |
+  Using distributions to examine which values are common and which are rare.
+author:
+  - name: Thomas Kinzeler 
+    url: https://www.statprep.org
+  - name: Daniel Kaplan
+    url: https://www.statprep.org
+date: "2020-06-02"
+version: 0.3
+output: distill::distill_article
+preview: preview.png
+---
+  
+Alternative document formats: [Word](activity.docx) & [PDF](activity.pdf) 
+
+---
+
+```{r child="activity.Rmd"}
+```
+

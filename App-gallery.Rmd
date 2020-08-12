@@ -1,0 +1,6 @@
+---
+title: Gallery of Little Apps
+listing: 
+  posts: 
+    - Apps/Generic
+---

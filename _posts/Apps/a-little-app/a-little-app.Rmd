@@ -1,0 +1,23 @@
+---
+title: "A Little App"
+description: |
+  Testing how the blogs are laid out!
+author:
+  - name: Danny Kaplan
+    url: https://www.statprep.org
+date: 08-12-2020
+output:
+  distill::distill_article:
+    self_contained: false
+resources:
+  include: 
+    word.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+This  is what I  put  in the generic file.
+
+Then I added this.

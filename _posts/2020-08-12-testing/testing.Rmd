@@ -1,0 +1,25 @@
+---
+title: "Testing"
+description: |
+  Can I get resources included here?
+author:
+  - name: Danny
+    url: https://www.statprep.org
+  - name: Maya
+    url: https://www.statprep.org
+date: 08-12-2020
+output:
+  distill::distill_article:
+    self_contained: false
+resources:
+  include:
+    mtcars.csv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+[Word version](word.docx)  [PDF version](word.pdf) [CSV](mtcars.csv)
+
+This  is the testing post.

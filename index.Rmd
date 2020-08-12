@@ -1,0 +1,54 @@
+---
+title: "Little Apps for Teaching Stats"
+description: |
+  Instructions,  activities, and information about the StatPREP Little Apps.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+
+```
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>")
+
+library(LittleApp2)
+library(shiny)
+app_url <- function(name) {
+  paste0(
+    "https://maa-statprep.shinyapps.io/Little_App_", 
+    name)
+}
+```
+
+Little Apps are tools for teaching and learning statistical concepts in a data-centric way. They are interactive web pages that display data and statistical graphics in standard web browsers. 
+
+The [Little App Activities](Activities.html) document how instructors have used the Little Apps in their classes. Each activity pertains to a particular statistical concept or methodology.
+
+Each Little App is accessed through an ordinary web link (listed below) and is centered on a particular statistical methodology, technique, or graphic. Some of the Apps display techniques that will fit into just about any existing intro stats course. 
+
+1. [Center and Spread](`r app_url("Spread")`)
+2. [Points and Densities](`r app_url("Density")`)
+3. [Confidence and T](`r app_url("T")`)
+
+Others are oriented to contemporary approaches to teaching statistics.
+
+4. [Resampling](`r app_url("Bootstrap")`)
+
+Still others implement topics can help instructors adopt to recent calls for change such as the GAISE recommendations about multivariate thinking and the American Statistical Association's posture on p-values.
+
+5. [Stratification and Confounding](`r app_url("Stratify")`)
+6. [Regression Modeling](`r app_url("Regression")`)
+
+Each Little App is oriented around a graphical display of data with statistical annotations. Users can select the size of sample to draw at random from a "population" of the entire dataset. *Every* App shows each point in the sample.
+
+App | Graphic | App | Graphic
+----|---------|-----|---------
+[Center & Spread](`r app_url("Spread")`) | <img src="images/center-spread-example.png" height="200px"> | [Points & Densities](`r app_url("Density")`) | <img src="images/density-example.png" height="200px">
+[Confidence & T](`r app_url("T")`) | <img src="images/t-test-example.png" height="200px"> | [Resampling](`r app_url("Bootstrap")`) | <img src="images/bootstrap-example-2.png" height="200px"> 
+[Stratification](`r app_url("Stratify")`) | <img src="images/stratification.png" height="200px"> | [Regression](`r app_url("Regression")`) | <img src="images/regression-example-3.png" height="200px"> 
+
