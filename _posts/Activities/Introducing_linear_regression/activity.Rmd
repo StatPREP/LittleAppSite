@@ -1,0 +1,97 @@
+---
+title: "Introducing linear regression"
+author: "Helen Burn"
+date: "6/12/2020"
+output:
+  html_document:
+    df_print: paged
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+library(LittleApp2)
+library(mosaic)
+library(ggformula)
+library(DT)
+Regression_app <- get_app_info("Regression")
+
+question_blank <-
+  function(prompts = "", length = 3, underline = "  .",
+           breaks = 2) {
+    blank <- paste0(rep(underline, length), collapse = "")
+    spaces <- paste0(rep("      \n\n", breaks), collapse = "")
+    paste(c(paste(prompts, "\t",  blank), ""), collapse  = spaces)
+  }
+```
+
+
+## Showing relationships for discussion
+
+Open up the [linear regression Little App](`r Regression_app$url`). (See footnote^[<`r Regression_app$url`>]). In this activity we'll explore three different data sets available through the app. For each data set, the variable indicated below plays the role of the response variable. Some explanatory variables are listed as sub-points.
+
+1. In the Data Tab in the top toll bar, set Source Package to `Little Apps`. For Data set choose `NHANES2`. Response variable: BMI. It’s important for students to know what BMI is. [Explanation from the CDC](https://www.cdc.gov/healthyweight/assessing/bmi/) & [BMI calculator for students](https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm).
+     - age (r = 0.5 reasonable scatterplot to assume linearity)
+     - income (r = -0.07) shows a very diffuse scatter plot but also helps demo the app to students.
+     - pulse: weak relationship
+     - systolic: weak-to-moderate relationship
+     - diastolic: has outliers
+     - sleep_hour: weak-to-moderate. But has a negative relationship
+2. Set Source Package to `mosaic`, and then Data set choose `CPS85`. Response variable: wage 
+    - age
+    - education
+3. Set Source Package to `Little Apps`. For Data set `Natality_2014` Response variable: `mager`,  mother's age
+    - `fagecomb`, father’s age. Moderate size correlation. Ask what real-world phenomenon accounts for the correlation.
+
+## Open-ended exploring
+
+### Systolic blood pressure from the `NHANES` data.
+
+**Background**: Explain to students what is the difference between the systolic and diastolic blood pressure. Each time the heart beats, the blood pressure in the arteries goes up. It quickly rises to a maximum and then decays until the next beat. Systolic is the maximum blood pressure each beat, diastolic the minimum. The “pulse pressure” is the difference between the two. See this site on [blood pressure](https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/expert-answers/pulse-pressure/faq-20058189).
+
+**Tasks**
+
+1. Determinine three explanatory variables that are predictive of systolic blood pressure.
+
+`r question_blank("*Write down the names of the explanatory variables here*", breaks = 2)`
+
+2. For each of the three variables, in the Graph tab in the upper tool bar, check the box to show the aux plot, then using and estimate from the graph, list the strength of the relationship both as a fraction of the variation explained and as the change in systolic blood pressure per unit change of the explanatory variable. Note: the T graph labelled as Model is the amount of variation explained by the model. The T graph labelled raw is the amount of variation for the data. The fraction of he variation explained is the ratio of the model T to the raw T. The change in systolic blood pressure per unit change of the explanatory variable is the slope of the line. 
+
+`r question_blank("*Fill in the table with your answers.*")`
+     
+variable name |  fraction of variation | change of response per unit change in explanatory
+--------------|--------------|--------------|
+     |      |     
+     |      |     
+     |      |     
+     |      |     
+     |      |      
+     
+
+3. Then check whether those three explanatory variables explain diastolic blood pressure as well. 
+
+`r question_blank("*Which of systolic or diastolic blood pressure is better explained by the explanatory variables?*", breaks = 2)`
+
+## Housing Prices
+
+Set Source Package to `mosaic`, and then Data set choose `SaratogaHouses`. Response variable: `price` 
+
+a Determinine three explanatory variables that are predictive of house price.
+
+`r question_blank("*Write down the names of the explanatory variables here*", breaks = 2)`
+
+b For each of the three variables , list the strength of the relationship both as a fraction of the variation explained and as the change in price of the explanatory variable.
+
+`r question_blank("*Fill in the table with your answers.*")`
+     
+variable name |  fraction of variation | change of response per unit change in explanatory
+--------------|--------------|--------------|
+     |      |     
+     |      |     
+     |      |     
+     |      |     
+     |      |      
+     
+----------------------
+
+Version 0.3, `r Sys.Date()`

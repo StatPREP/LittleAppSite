@@ -1,0 +1,28 @@
+---
+title: "Parameters of the normal distribution"
+description: |
+  Normal distributions are a *family*. The specific members  of the family are identified by two parameters: the mean and the standard deviation.
+author:
+  - name: Thomas Kinzler
+    url: email:thomas.kinzler@tccd.edu
+  - name: Daniel Kaplan
+    url: https://dtkaplan.github.io
+  
+date: "2020-06-16"
+version: 0.3
+output: distill::distill_article
+preview: preview.png
+tags: 
+  - mean
+  - standard deviation
+  - distribution
+  - normal
+---
+  
+Alternative document formats: [Word](activity.docx) & [PDF](activity.pdf) 
+
+---
+
+```{r child="activity.Rmd"}
+```
+

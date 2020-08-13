@@ -124,6 +124,94 @@
     "input_file": {}
   },
   {
+    "path": "posts/Activities/How_much_is_explained/",
+    "title": "How much is explained?",
+    "description": "Using R-squared to quantify how much of the variation in a response variable is accounted for by explanatory variables.",
+    "author": [
+      {
+        "name": "Helen Burn",
+        "url": "email:hburn@highline.edu"
+      },
+      {
+        "name": "Daniel Kaplan",
+        "url": "https://dtkaplan.github.io"
+      }
+    ],
+    "date": "2020-06-16",
+    "categories": [],
+    "preview": "posts/Activities/How_much_is_explained/preview.png",
+    "last_modified": "2020-08-13T14:29:28-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/Activities/Intervention_and_prediction/",
+    "title": "Intervention and prediction",
+    "description": "Causality  as a reason to identify one variable as the response and another\nas the explanatory.",
+    "author": [
+      {
+        "name": "Daniel Kaplan",
+        "url": "https://dtkaplan.github.io"
+      }
+    ],
+    "date": "2020-06-16",
+    "categories": [],
+    "preview": "posts/Activities/Intervention_and_prediction/preview.png",
+    "last_modified": "2020-08-13T14:43:38-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/Activities/Introducing_linear_regression/",
+    "title": "Introducing linear regression",
+    "description": "Discussion topics to introduce linear regression to your class.",
+    "author": [
+      {
+        "name": "Helen Burn",
+        "url": "email:hburn@highline.edu"
+      }
+    ],
+    "date": "2020-06-16",
+    "categories": [],
+    "preview": "posts/Activities/Introducing_linear_regression/preview.png",
+    "last_modified": "2020-08-13T14:58:01-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/Activities/Normal_parameters/",
+    "title": "Parameters of the normal distribution",
+    "description": "Normal distributions are a *family*. The specific members  of the family are identified by two parameters: the mean and the standard deviation.",
+    "author": [
+      {
+        "name": "Thomas Kinzler",
+        "url": "email:thomas.kinzler@tccd.edu"
+      },
+      {
+        "name": "Daniel Kaplan",
+        "url": "https://dtkaplan.github.io"
+      }
+    ],
+    "date": "2020-06-16",
+    "categories": [],
+    "preview": "posts/Activities/Normal_parameters/preview.png",
+    "last_modified": "2020-08-13T15:07:28-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/Activities/Point_plots/",
+    "title": "Data and point plots",
+    "description": "Introduces the distinction between quantitative and categorical variables through their very different appearances in a point plot.",
+    "author": [
+      {
+        "name": "Daniel Kaplan",
+        "url": "https://dtkaplan.github.io"
+      }
+    ],
+    "date": "2020-06-16",
+    "categories": [],
+    "preview": "posts/Activities/Point_plots/preview.png",
+    "last_modified": "2020-08-13T15:18:59-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/Activities/Common_and_rare/",
     "title": "Common and Rare",
     "description": "Using distributions to examine which values are common and which are rare.",
