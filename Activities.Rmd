@@ -5,5 +5,6 @@ listing:
     - Activities/Common_and_rare
     - Activities/Comparing_two_groups
     - Activities/Comparing_confidence_intervals
+    - Activities/Distribution_shapes
     - Activities/Generic
 ---

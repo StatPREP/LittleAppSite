@@ -104,6 +104,26 @@
     "input_file": {}
   },
   {
+    "path": "posts/Activities/Distribution_shapes/",
+    "title": "Shapes of distributions",
+    "description": "Introduces terms such as skew, bi-modal, and flat, by reference to the difference of the actual variable from a theoretical normal distribution.",
+    "author": [
+      {
+        "name": "Thomas Kinzler",
+        "url": "email:thomas.kinzler@tccd.edu"
+      },
+      {
+        "name": "Daniel Kaplan",
+        "url": "https://dtkaplan.github.io"
+      }
+    ],
+    "date": "2020-06-16",
+    "categories": [],
+    "preview": "posts/Activities/Distribution_shapes/preview.png",
+    "last_modified": "2020-08-13T14:10:00-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/Activities/Common_and_rare/",
     "title": "Common and Rare",
     "description": "Using distributions to examine which values are common and which are rare.",
