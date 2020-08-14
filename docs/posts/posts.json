@@ -212,6 +212,78 @@
     "input_file": {}
   },
   {
+    "path": "posts/Activities/Relationship_patterns/",
+    "title": "Describing relationship patterns in words and numbers",
+    "description": "Translating a regression line into a description in everyday terms",
+    "author": [
+      {
+        "name": "Helen Burn",
+        "url": "email:hburn@highline.edu"
+      },
+      {
+        "name": "Daniel Kaplan",
+        "url": "https://dtkaplan.github.io"
+      }
+    ],
+    "date": "2020-06-16",
+    "categories": [],
+    "preview": "posts/Activities/Relationship_patterns/preview.png",
+    "last_modified": "2020-08-14T07:19:40-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/Activities/Response_and_explanatory/",
+    "title": "Response and explanatory variables",
+    "description": "Reasons to identify one variable as the response and another as the explanatory.",
+    "author": [
+      {
+        "name": "Daniel Kaplan",
+        "url": "https://dtkaplan.github.io"
+      }
+    ],
+    "date": "2020-06-16",
+    "categories": [],
+    "preview": "posts/Activities/Response_and_explanatory/preview.png",
+    "last_modified": "2020-08-14T07:27:49-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/Activities/Sampling_bias/",
+    "title": "Sampling bias and the confidence interval",
+    "description": "A confidence interval will cover the population parameter with the right frequency only if the sample is unbiased. This lesson explores sampling bias. (NOTE: The app used here is in the original style of the Little Apps. It has not yet been translated into the current system used for the Apps.)",
+    "author": [
+      {
+        "name": "Daniel Kaplan",
+        "url": "https://dtkaplan.github.io"
+      }
+    ],
+    "date": "2020-06-16",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-08-14T07:41:59-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/Activities/What_is_a_confidence_interval/",
+    "title": "What is a confidence interval?",
+    "description": "Describes the desired behavior of a confidence interval, that is, how to know whether a procedure produces a valid confidence interval.",
+    "author": [
+      {
+        "name": "Rona Axelrod",
+        "url": "email:rona.axelrod@fsw.edu"
+      },
+      {
+        "name": "Daniel Kaplan",
+        "url": "https://dtkaplan.github.io"
+      }
+    ],
+    "date": "2020-06-16",
+    "categories": [],
+    "preview": "posts/Activities/What_is_a_confidence_interval/preview.png",
+    "last_modified": "2020-08-14T07:54:17-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/Activities/Common_and_rare/",
     "title": "Common and Rare",
     "description": "Using distributions to examine which values are common and which are rare.",

@@ -7,9 +7,15 @@ listing:
     - Activities/Normal_parameters
     - Activities/Distribution_shapes
     - Activities/Comparing_two_groups
+    - Activities/What_is_a_confidence_interval
     - Activities/Comparing_confidence_intervals
-    - Activities/Intervention_and_prediction
     - Activities/Introducing_linear_regression
+    - Activities/Relationship_patterns
+    - Activities/Response_and_explanatory
+    - Activities/Intervention_and_prediction
     - Activities/How_much_is_explained
+    - Activities/Sampling_bias
     - Activities/Generic
 ---
+
+

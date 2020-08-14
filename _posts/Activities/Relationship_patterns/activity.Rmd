@@ -1,0 +1,59 @@
+---
+title: "Describing relationship patterns in words and numbers"
+author: "Helen Burn & Daniel Kaplan"
+date: "6/12/2020"
+output:
+  word_document: default
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+library(LittleApp2)
+library(mosaic)
+library(ggformula)
+library(DT)
+Regression_app <- get_app_info("Regression")
+
+question_blank <-
+  function(prompts = "", length = 3, underline = "  .",
+           breaks = 2) {
+    blank <- paste0(rep(underline, length), collapse = "")
+    spaces <- paste0(rep("      \n\n", breaks), collapse = "")
+    paste(c(paste(prompts, "\t",  blank), ""), collapse  = spaces)
+  }
+```
+
+
+
+# Orientation
+
+It's natural to display a linear regression as a graph modeling the response variable as a function of the explanatory variables. In the Regression Modelling [`r Regression_app$name`](`r Regression_app$url`) Little App, that function is shown as a line laid on top of the data. 
+
+Graphics are important, but it's also a good practice to summarize the relationship using words and numbers. 
+
+This lesson introduces the conventions for such a summary. Some of them may already be familiar to you. 
+
+
+The relationship shown in the [`r Regression_app$name`](`r Regression_app$url`) Little App is (by default) a straight line. In the Apps Control (the icon that is 3 parallel lines) allows you to change to other degree polynomials. (If there is a covariate, there will be multiple lines, one for each level of the covariate.) There are two important ways you can describe lines:
+
+- Which  way the line slopes? For instance, suppose the line slopes upward from left to right. The in-words description could be simply, "The regression line has a *positive slope*." Other possibilities are a *negative slope* or *no slope*. Another way to express this is with phrases like "Y goes *up* with X" (positive slope) or "Y goes *down* with  X" (negative slope) or "Y doesn't depend on X" (no slope). Of course, use the variable names instead of "Y" and "X". The response variable goes in to replace "Y" and the explanatory variable replaces "X". 
+- A more detailed description of the pattern describes *how much* Y goes up (or down) with X." For example,  "A difference in systolic pressure of 6 units corresponds to a  difference in  diastolic pressure of 10 units." 
+
+# Activity
+
+1. Open up the [`r Regression_app$name`](`r Regression_app$url`) Little App. (See footnote^[<`r Regression_app$url`>]). Select `Little Apps` as the Source package,`NHANES2` as the data set and systolic blood pressure as the response variable. 
+
+    `r question_blank("*Find an explanatory variable that produces a regression line that slopes up. What is it?*")`
+    `r question_blank("*Find another explanatory variable where the regression line slopes down. What is it?*")`
+    `r question_blank("*For each of those two variables, find the numerical value of the slope of the line. Then summarize the relationship in this way*:", length = 0)`
+
+    > *As _______ (the explanatory variable) increases by ____, the response variable _____ will go ___up_or_down___ by _____.*
+    
+    In filling in the two blanks following "by", make sure to give the units of the variables. You can find the units by looking at the codebook.
+
+     
+----------------------
+
+Version 0.3, `r Sys.Date()`

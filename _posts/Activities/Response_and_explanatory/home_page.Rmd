@@ -1,0 +1,22 @@
+---
+title: "Response and explanatory variables"
+description: |
+  Reasons to identify one variable as the response and another as the explanatory.
+author:
+  - name: Daniel Kaplan
+    url: https://dtkaplan.github.io
+date: "2020-06-16"
+version: 0.3
+output: distill::distill_article
+preview: preview.png
+tags: 
+  - regression
+---
+  
+Alternative document formats: [Word](activity.docx) & [PDF](activity.pdf) 
+
+---
+
+```{r child="activity.Rmd"}
+```
+
