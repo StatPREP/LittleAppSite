@@ -3,10 +3,10 @@ title: "Response and explanatory variables"
 author: "Daniel Kaplan"
 date: "6/12/2020"
 output:
+  word_document: default
   pdf_document: default
   html_document:
     df_print: paged
-  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -52,12 +52,12 @@ And, when there are more than two variables, it's particularly helpful to distin
 There are two main types of variables: quantitative and categorical. Strickly as a matter of logic, there are four possible ways that these two types can be arranged as the response and explanatory variables. It's important to know this, since the choice of an appropriate statistical  technique should be shaped by the types of the response and explanatory variables.
 
 ```{r echo = FALSE}
-Bootstrap_app <- list(name = "hello", url = "goodbye")
-Spread_app <- list(name = "hello", url = "goodbye")
-Density_app <- list(name = "hello", url = "goodbye") 
-Regression_app <- list(name = "hello", url = "goodbye")
-Stratify_app <- list(name = "hello", url = "goodbye")
-T_app <-    list(name = "hello", url = "goodbye")
+Bootstrap_app <- get_app_info("Bootstrap")
+Spread_app <- get_app_info("Spread")
+Density_app <- get_app_info("Density")
+Regression_app <- get_app_info("Regression")
+Stratify_app <- get_app_info("Stratify")
+T_app <-    get_app_info("T")
 ```
 
 
