@@ -3,10 +3,10 @@ title: "Comparing two groups"
 author: "Carol Howald"
 date: "6/12/2020"
 output:
-  word_document: default
-  pdf_document: default
   html_document:
     df_print: paged
+  word_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -34,7 +34,7 @@ We arranged to meet you in a local coffee shop, which has free internet.
  
 # Activity
 
-When we got to the coffee shop, you opened up a statistics app, called the  [Confidence and T](`r T_app$url`) Little App. (See footnote^[<`r T_app$url`>]) You set the app to work with  the `NHANES` data, by setting Source package to be Little Apps, and Data set to NHANES2. You explained that there is a lot of  data, but maybe it would be good to start with a sample of 100, so that we would get an idea of what things might work in our planned interviews of 100 families. To set the sample size to 100, click the icon that says n= and then pick 50.
+When we got to the coffee shop, you opened up a statistics app, called the  [Confidence and T](`r T_app$url`) Little App. (See footnote^[<`r T_app$url`>]) You set the app to work with  the `NHANES` data, by setting Source package to be Little Apps, and Data set to NHANES2. You explained that there is a lot of  data, but maybe it would be good to start with a sample of 100, so that we would get an idea of what things might work in our planned interviews of 100 families. To set the sample size to 100, click the icon that says n= and then pick 100.
 
 1. You set the response variable in the app to a variable called "income_poverty." Set the explanatory variable to Select explanatory variable. We could see at a glance that this variable ranged from 0 to 5. That didn't make sense to us.
 
