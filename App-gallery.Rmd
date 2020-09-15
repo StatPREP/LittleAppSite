@@ -4,3 +4,34 @@ listing:
   posts: 
     - Apps/Generic
 ---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>")
+
+library(LittleApp2)
+library(shiny)
+app_url <- function(name) {
+  paste0(
+    "https://maa-statprep.shinyapps.io/Little_App_", 
+    name)
+}
+```
+
+.
+
+.
+
+.
+
+.
+
+.
+
+App | Graphic | App | Graphic
+----|---------|-----|---------
+[Center & Spread](`r app_url("Spread")`) | <img src="images/center-spread-example.png" height="200px"> | [Points & Densities](`r app_url("Density")`) | <img src="images/density-example.png" height="200px">
+[Confidence & T](`r app_url("T")`) | <img src="images/t-test-example.png" height="200px"> | [Resampling](`r app_url("Bootstrap")`) | <img src="images/bootstrap-example-2.png" height="200px"> 
+[Stratification](`r app_url("Stratify")`) | <img src="images/stratification.png" height="200px"> | [Regression](`r app_url("Regression")`) | <img src="images/regression-example-3.png" height="200px"> 
+

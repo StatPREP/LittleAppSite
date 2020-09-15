@@ -8,7 +8,7 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "App Gallery"
-      href: Apps.html
+      href: App-gallery.html
     - text: "Class Activities"
       href: Activities.html
 output: distill::distill_article
