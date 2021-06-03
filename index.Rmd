@@ -27,7 +27,11 @@ app_url <- function(name) {
 
 Little Apps are tools for teaching and learning statistical concepts in a data-centric way. They are interactive web pages that display data and statistical graphics in standard web browsers. 
 
-The [Little App Activities](Activities.html) document how instructors have used the Little Apps in their classes. Each activity pertains to a particular statistical concept or methodology.
+There are two sets of links on this site:
+
+1. **[Little App Activities](Activities.html)** document how instructors have used the Little Apps in their classes. Each activity pertains to a particular statistical concept or methodology. The activities were written by one or more StatPREP Hub leaders or participants. Each is available in HTML form as well as `.docx` and `.pdf` forms accessible from the HTML document.
+
+2. **The Little Apps** themselves.
 
 Each Little App is accessed through an ordinary web link (listed below) and is centered on a particular statistical methodology, technique, or graphic. Some of the Apps display techniques that will fit into just about any existing intro stats course. 
 
@@ -43,6 +47,8 @@ Still others implement topics can help instructors adopt to recent calls for cha
 
 5. [Stratification and Confounding](`r app_url("Stratify")`)
 6. [Regression Modeling](`r app_url("Regression")`)
+
+## Gallery of Little Apps
 
 Each Little App is oriented around a graphical display of data with statistical annotations. Users can select the size of sample to draw at random from a "population" of the entire dataset. *Every* App shows each point in the sample.
 
