@@ -1,12 +1,12 @@
 ---
 title: "Introducing linear regression"
 author: "Helen Burn"
-date: "6/12/2020"
+date: "6/03/2021"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
   word_document: default
-  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -55,7 +55,25 @@ Open up the [linear regression Little App](`r Regression_app$url`). (See footnot
 
 `r question_blank("*Write down the names of the explanatory variables here*", breaks = 2)`
 
-2. For each of the three variables, in the Graph tab in the upper tool bar, check the box to show the aux plot, then using and estimate from the graph, list the strength of the relationship both as a fraction of the variation explained and as the change in systolic blood pressure per unit change of the explanatory variable. Note: the T graph labelled as Model is the amount of variation explained by the model. The T graph labelled raw is the amount of variation for the data. The fraction of he variation explained is the ratio of the model T to the raw T. The change in systolic blood pressure per unit change of the explanatory variable is the slope of the line. 
+2. In the Graph tab in the upper tool bar, make sure the "Show auxiliary graph" box is checked. 
+
+The primary plot (the large one on the left of the tab) shows a scatter plot of the response variable versus explanatory variable and the best fitting model. Imagine that each of the scattered points were raised or lowered to fall exactly on the best fitting model. This vertical position corresponds to the **model values**.
+
+The auxiliary graph is on the right. It shows two clouds of points. The right cloud gives the **raw values** of the response variable. The vertical position of each point in the raw cloud is identical to the vertical position of the corresponding data point in the primary graph. 
+
+The left cloud in the auxiliary graph gives the **model values**. Again, the vertical position of each point in the model-value cloud is identical to the corresponding model value in the primary plot. 
+
+Both the raw and model-value clouds in the auxiliary graph are marked with an I-shaped interval. This vertical interval covers approximately 95% of the points in its cloud. The center of the interval is the mean points in the cloud, the ends are plus-or-minus 2 standard deviations away from this. 
+
+One helpful way to describe a relationship between two variables is to quantify how much of the *variation* in the response variable can be accounted for by the explanatory variable. A standard way to quantify this is with a statistic called R-squared, which always falls between 0 and 1.  Zero means no relationship and 1 is a "perfect" relationship where the explanatory variable exactly accounts for the response variable. Think of R-squared as measuring the **strength of the relationship**. More precisely, R-squared is the fraction of the variance of the response variable accounted for by the explanatory variable.
+
+You can estimate the strength of the relationship, R-squared, from the auxiliary graph.
+
+> R is the ratio of the length of the model value interval to the length of the raw values interval. Square R to get R-squared.
+
+Another way to describe the relationship between the explanatory and response variables is with the **effect size**. Whereas R-squared is always on the scale 0 to 1, the effect size reflects the actual units of the explanatory and response variables. It is the change in model value ("rise") per unit change in the explanatory variable ("run"). The ratio is rise over run, in other words, the slope of the model line.  
+
+For each of the three variables, list the strength of the relationship both as a fraction of the variation explained (R-squared) and as the change in systolic blood pressure per unit change of the explanatory variable (slope of model line). 
 
 `r question_blank("*Fill in the table with your answers.*")`
      
@@ -94,4 +112,4 @@ variable name |  fraction of variation | change of response per unit change in e
      
 ----------------------
 
-Version 0.3, `r Sys.Date()`
+Version 0.4, `r Sys.Date()`
